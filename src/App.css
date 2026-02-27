@@ -129,6 +129,9 @@ nav ul {
   }
 }
 
+.quirk{
+  color: white;
+}
 .ham-menu {
   display: none;
 }

@@ -8,7 +8,7 @@ export const CountryDetails = () => {
 
   const [isPending, startTransition] = useTransition();
   const [country, setCountry] = useState();
-
+  
   useEffect(() => {
     startTransition(async () => {
       const res = await getCountryIndData(params.id);
@@ -16,7 +16,7 @@ export const CountryDetails = () => {
       if (res.status === 200) {
         setCountry(res.data[0]);
       }
-
+    
       console.log(Object.keys(res.data[0].name.nativeName));
     });
   }, []);
@@ -35,7 +35,7 @@ export const CountryDetails = () => {
               className="flag"
             />
             <div className="country-content">
-              <p className="card-title"> {country.name.official} </p>
+              <p className="card-title">{country.name.official} </p>
 
               <div className="infoContainer">
                 <p>
