@@ -117,7 +117,7 @@ Leverages the latest React 19 features — including improved concurrent renderi
 Client-side navigation across 5+ pages (Home, Country Detail, Region Filter, Favorites, About) using nested routes and the `<Outlet />` pattern — zero full-page reloads, pure SPA experience.
 
 ### 📡 Axios Data Layer
-A clean, centralized `services/` module wraps all Axios calls to the REST Countries API, with error handling and response normalization baked in.
+A clean, centralized `api/` module wraps all Axios calls to the Countries API.
 
 ### 🔎 Search & Sort Engine
 Custom filtering and dual-direction sorting (`A→Z` / `Z→A`) built from scratch, reducing average time-to-find for users by approximately **40%** compared to unfiltered browsing.
