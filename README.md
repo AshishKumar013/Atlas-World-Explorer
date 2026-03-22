@@ -1,7 +1,11 @@
+<div align="center">
 
+
+# 🌏 Atlas World Explorer
+
+### *Explore Beyond Borders...*
 ---
-
-## 🌍 Overview
+</div>
 
 **Atlas World Explorer** is a high-performance, fully responsive web application that brings the world to your fingertips. Built with the latest **React 19** features and powered by a live Countries REST API, Atlas lets users browse, search, sort, and deep-dive into rich data for every nation on the planet — all without a single full-page reload.
 
