@@ -97,8 +97,8 @@ Atlas-World-Explorer/
 │   ├── components/        # Layout and UI
 │   ├── pages/             # Route-level page components
 │   ├── api/               # Country data and api call using axios
-│   ├── assets/             # Search & sorting algorithms
-│   ├── index.css/          # global css
+│   ├── assets/            # Search & sorting algorithms
+│   ├── index.css/         # global css
 │   ├── App.jsx            # Root component & routing
 │   └── main.jsx           # React 19 entry point
 ├── .netlify/
